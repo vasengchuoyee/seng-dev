@@ -5,10 +5,12 @@
 
 
 :root {
-
-
     --secondary-color: #3394f5;
     --text-white: #ffffff;
+}
+
+.dancing-script {
+    font-family: var(--font-dancing-script);
 }
 .cursive {
     font-family: "Cedarville Cursive", cursive;

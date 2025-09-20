@@ -64,7 +64,7 @@ const Encryption = () => {
                     playsInline
                     preload='auto'
                     className='w-full h-full object-cover max-w-[1000px] opacity-80'
-                    src='/lock.mp4'
+                    src='https://res.cloudinary.com/dvpenhejp/video/upload/v1758354122/v7wdhygjtppzc8xxfmhx.mp4'
                     style={{ 
                         filter: 'brightness(0.7) contrast(1.2)',
                         WebkitFilter: 'brightness(0.7) contrast(1.2)' 

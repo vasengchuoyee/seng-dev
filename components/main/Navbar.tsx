@@ -17,9 +17,10 @@ const Navbar = () => {
                         height={40}
                         className='cursor-pointer hover:animate-slowspin box-border rounded-[50px] border'
                     />
-                    <span className='font-bold italic ml-[8px] hidden md:block text-gray-300'>
+                    {/* <span className='font-bold italic ml-[8px] hidden md:block text-gray-300'>
                         SMILE NEXT
-                    </span>
+                    </span> */}
+                    <h1 className="dancing-script text-2xl ml-[8px] hidden md:block text-gray-300">smile_nextjs</h1>
                 </a>
 
                 {/* Hamburger Menu Button - Visible on mobile only */}

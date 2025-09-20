@@ -63,13 +63,35 @@ const Footer = () => {
                         </p>
 
                     </div>
+                    <div className='relative w-full mt-[20px] mb-[20px] overflow-hidden'>
+                    <div className='absolute inset-0 bg-gradient-to-r from-purple-500/10 via-transparent to-blue-500/10 blur-xl'></div>
+                    <div className='relative bg-[#0300145e] backdrop-blur-sm border-t border-[#7042f88b] p-4'>
+                        <div className='flex flex-col md:flex-row items-center justify-center gap-2 text-center'>
+                            <span className='text-[15px] text-gray-300 font-light'>
+                                &copy; {new Date().getFullYear()}
+                            </span>
+                            <span className='text-lg bg-gradient-to-r from-purple-400 to-blue-400 text-transparent bg-clip-text font-medium'>
+                                vaseng.dev
+                            </span>
+                            <span className='text-[15px] text-gray-300 font-light'>
+                                Built with
+                                <span className='mx-1 text-blue-400 hover:text-blue-300 transition-colors'>
+                                    Next.js
+                                </span>
+                                &
+                                <span className='mx-1 text-purple-400 hover:text-purple-300 transition-colors'>
+                                    TailwindCSS
+                                </span>
+                            </span>
+                        </div>
+                    </div>
                 </div>
+                </div>
+                
 
-               
+
             </div>
-            <div className='mb-[20px] text-[15px] text-center bg-gray-700 p-2 mt-[20px] w-full'>
-                    &copy; vaseng.dev @2025 _Next.js
-                </div>
+
 
         </div>
     )

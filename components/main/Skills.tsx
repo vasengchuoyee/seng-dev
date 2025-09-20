@@ -77,7 +77,7 @@ const Skills = () => {
                         loop
                         muted
                         autoPlay
-                        src='/mybest.mp4'
+                        src='https://res.cloudinary.com/dvpenhejp/video/upload/v1758355296/hqwlfcpjp8yawypposeo.mp4'
 
                     />
                 </div>
