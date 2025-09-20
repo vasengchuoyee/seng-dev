@@ -1,9 +1,12 @@
-import Encryption from "@/components/main/Encryption";
+
 import Hero from "@/components/main/Hero";
 import Phone from "@/components/main/Phone";
-import Project from "@/components/main/Project";
+import Section from "@/components/main/Section";
 import Skills from "@/components/main/Skills";
+import Encryption from "@/components/main/Encryption";
+import Project from "@/components/main/Project";
 import BacktoTop from "@/components/sub/BacktoTop";
+
 
 export default function Home() {
   return (
@@ -11,11 +14,15 @@ export default function Home() {
       <div className="flex flex-col gap-20">
         <Hero />
         <Phone />
+        <Section />
         <Skills />
         <Encryption />
         <Project />
         <BacktoTop />
+
       </div>
     </main>
   );
 }
+
+

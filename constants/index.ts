@@ -265,9 +265,9 @@ export const customerStories = [
     link: "https://vasengowner.firebaseapp.com/",
   },
   {
-    name: "NEWS APP",
-    logo: "/nexts.png",
-    feedback: "news app using next js ",
+    name: "vaseng owner",
+    logo: "/vasengs.png",
+    feedback: "news web using next js ",
     link: "",
   },
 ];

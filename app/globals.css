@@ -108,6 +108,28 @@ html {
     display: none; 
   }
 
+  .image-card {
+    transition: transform 0.5s ease;
+    transform-style: preserve-3d;
+  }
+  
+  .image-card:hover {
+    transform: rotateY(180deg) scale(1.1);
+  }
+  
+  .carousel-container {
+    perspective: 1000px;
+  }
+
+  @keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
   
 @keyframes rotate {
     from {
@@ -121,3 +143,4 @@ html {
   .animate-rotate {
     animation: rotate 5s linear infinite;
   }
+
