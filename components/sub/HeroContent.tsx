@@ -46,7 +46,14 @@ const HeroContent = () => {
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <div className="flex justify-center items-center">
-          <img src="vaseng.png" alt="Admins" className="rounded-full w-80 h-80 object-cover" />
+          <Image 
+            src="/vaseng.png"
+            alt="Vaseng Profile"
+            width={320}
+            height={320}
+            className="rounded-full w-80 h-80 object-cover transition-transform hover:scale-105"
+            priority
+          />
         </div>
         <motion.div
           variants={slideInFromTop}
